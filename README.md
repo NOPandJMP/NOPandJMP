@@ -1,4 +1,5 @@
-```format ELF
+```asm
+format ELF
 public _start
 section '.data' writeable
   msg db "The most important vulnerability, the person sitting on the PC.", 0xA, 0x0
